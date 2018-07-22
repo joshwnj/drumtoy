@@ -40,17 +40,13 @@ body {
   text-decoration: underline;
 }
 
-footer {
-  margin-top: 10vh;
-}
-
-footer a {
+a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-footer a:hover {
-  text-decoration: underline;
+a:hover {
+  text-decoration: none;
 }
 
 .tracks {
