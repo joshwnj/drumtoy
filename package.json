@@ -1,0 +1,35 @@
+{
+  "name": "drumtoy",
+  "version": "0.1.0",
+  "description": "Very simple drum machine",
+  "main": "src/index.js",
+  "files": [
+    "dist",
+  ],
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joshwnj",
+  "license": "MIT",
+  "dependencies": {
+    "beat-emitter": "^1.2.0",
+    "dat.gui": "^0.7.2",
+    "frequency-to-midi-note-number": "^0.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "tunajs": "^1.0.1",
+    "wakit": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "gh-pages": "^1.2.0",
+    "parcel": "^1.9.4"
+  }
+}

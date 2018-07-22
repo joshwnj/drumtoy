@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'FT2';
+	src: url('./assets/FT2.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font: normal 16px/1 "FT2", Verdana, sans-serif;
+  background: hsl(250, 20%, 20%);
+  color: hsl(190, 30%, 90%);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  margin: 10vh 0 0 0;
+  padding: 0;
+  width: 100vw;
+  text-align: center;
+  letter-spacing: 1em;
+}
+
+.scope {
+  width: 40vw;
+  height: 10vh;
+}
+
+.mute {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.mute input {
+  display: none;
+}
+
+.mute .text:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 10vh;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.tracks {
+  width: 40vw;
+  margin: 10vh auto;
+}
+
+.track.current {
+  background: hsla(0, 10%, 60%, 0.3);
+}
+
+.beats {
+}
+
+.beat {
+  width: 24%;
+  margin-left: .5%;
+  margin-right: .5%;
+  height: 2em;
+  display: inline-block;
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+.beat.current {
+  background: hsla(0, 0%, 100%, 0.3);
+}
+
+.slice {
+  display: inline-block;
+  width: 12.5%;
+  height: 100%;
+}
+
+.slice:hover {
+  background: hsla(0, 0%, 50%, 0.5);
+}
+
+.slice.hasNote {
+  background: hsla(0, 50%, 50%, 0.3);
+}
+
+.slice.hasNote:hover {
+  background: hsla(0, 50%, 50%, 0.5);
+}
+
+.instructions {
+  width: 40vw;
+  margin: 0 auto;
+  text-align: left;
+}
